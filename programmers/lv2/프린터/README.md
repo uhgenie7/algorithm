@@ -12,4 +12,4 @@ console.log(array.some(even));
 // expected output: true
 </code></pre>
 
-이를 이용하여 조건문 안엥 넣어 판별할 수 있습니다.
+이를 이용하여 조건문 안에 넣어 판별할 수 있습니다.
