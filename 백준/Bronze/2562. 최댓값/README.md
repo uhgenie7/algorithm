@@ -10,3 +10,6 @@
 
 구현(implementation)
 
+### 노트
+
+타입까지 맞추어야 pass 시켜주는 문제
