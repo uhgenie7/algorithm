@@ -9,7 +9,16 @@
 - [LeetCode]
 - [HackerRank]
 
-### [Programmers]
+
+## [BOJ]
+✅: PASS
+
+💭: 한 번 더 생각해보기
+| Lv  |            Title            | Difficulty | Solution |
+| :-: | :-------------------------: | :--------: | :------: |
+|    |    [나머지]    |    Bronze II    |💭
+
+## [Programmers]
 
 | Lv  |            Title            | Difficulty | Solution |
 | :-: | :-------------------------: | :--------: | :------: |
@@ -84,9 +93,13 @@
 [키패드 누르기]: https://programmers.co.kr/learn/courses/30/lessons/67256
 [체육복]: https://programmers.co.kr/learn/courses/30/lessons/42862
 
+<!-- 백준 -->
+[나머지]: https://www.acmicpc.net/problem/3052
+
 <!-- 온라인 저지 사이트 -->
 
 [programmers]: https://programmers.co.kr/learn/challenges
+[BOJ]: https://www.acmicpc.net/step
 [goormlevel]: https://level.goorm.io/
 [leetcode]: https://leetcode.com/problemset/all/
 [hackerrank]: https://www.hackerrank.com/dashboard
