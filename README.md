@@ -19,6 +19,7 @@
 |    |    [나머지]    |    Bronze II    |💭
 |    |   [평균은 넘겠지]    |    Bronze I    |💭
 |    |   [셀프 넘버]    |    Silver V    |💭
+|    |   [한수]    |    Silver IV    |💭
 
 ## [Programmers]
 
@@ -99,6 +100,7 @@
 [나머지]: https://www.acmicpc.net/problem/3052
 [평균은 넘겠지]: https://www.acmicpc.net/problem/4344
 [셀프 넘버]: https://www.acmicpc.net/problem/4673
+[한수]: https://www.acmicpc.net/problem/1065
 
 <!-- 온라인 저지 사이트 -->
 
