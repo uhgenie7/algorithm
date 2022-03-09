@@ -1,4 +1,4 @@
-function NotSelfNumber(N) {
+function nSum(N) {
   let sum = N;
 
   while (true) {
@@ -11,18 +11,18 @@ function NotSelfNumber(N) {
 }
 
 function selfnumber(N) {
-  let selfnum = [];
+  let notSelfNumer = [];
   let result = [];
 
   for (let i = 1; i <= N; i++) {
-    let index = NotSelfNumber(i);
+    let index = nSum(i);
     if (index <= N) {
-      selfnum[index] = true;
+      notSelfNumer[index] = true;
     }
   }
 
   for (let i = 1; i <= N; i++) {
-    if (!selfnum[i]) result.push(i);
+    if (!notSelfNumer[i]) result.push(i);
   }
   console.log(result.join("\n"));
 }
