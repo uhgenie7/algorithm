@@ -20,7 +20,7 @@
 |    |   [평균은 넘겠지]    |    Bronze I    |💭
 |    |   [셀프 넘버]    |    Silver V    |💭
 |    |   [한수]    |    Silver IV    |💭
-|    |   [알파벳 찾기]    |    Silver IV    |💭
+|    |   [알파벳 찾기]    |    Bronze II    |💭
 
 ## [Programmers]
 
