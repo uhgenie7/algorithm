@@ -102,7 +102,7 @@
 [평균은 넘겠지]: https://www.acmicpc.net/problem/4344
 [셀프 넘버]: https://www.acmicpc.net/problem/4673
 [한수]: https://www.acmicpc.net/problem/1065
-[알파벳찾기]: https://www.acmicpc.net/problem/10809
+[알파벳 찾기]: https://www.acmicpc.net/problem/10809
 
 <!-- 온라인 저지 사이트 -->
 
