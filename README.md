@@ -21,6 +21,7 @@
 |    |   [셀프 넘버]    |    Silver V    |💭
 |    |   [한수]    |    Silver IV    |💭
 |    |   [알파벳 찾기]    |    Bronze II    |💭
+|    |   [문자열 반복]    |    Bronze II    |💭
 
 ## [Programmers]
 
@@ -103,6 +104,7 @@
 [셀프 넘버]: https://www.acmicpc.net/problem/4673
 [한수]: https://www.acmicpc.net/problem/1065
 [알파벳 찾기]: https://www.acmicpc.net/problem/10809
+[문자열 반복]: https://www.acmicpc.net/problem/2675
 
 <!-- 온라인 저지 사이트 -->
 
