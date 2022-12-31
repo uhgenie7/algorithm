@@ -11,3 +11,11 @@ u
 good
 ▣ 출력예제 2
 oo
+
+<details>
+<summary>팁</summary>
+<div markdown="1">       
+ - 홀수: 문자열 / 2 의 몫은 정확히 가운데 index를 가리킨다.
+ - 짝수: 문자열 / 2 의 몫보다 하나 작은 index부터 2개를 뽑는다. (몫-1, 몫)
+</div>
+</details>
