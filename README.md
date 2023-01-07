@@ -191,6 +191,28 @@ for...of 명령문은 반복가능한 객체 (Array, Map (en-US), Set, String, T
 1. `Number.MAX_SAFE_INTEGER`
    최대 안전 정수
 
+## 접근법
+
+## 2차원 배열
+
+### 1. 행열
+
+```
+..  0열1열2열3열4열
+0행 10 13 10 12 15
+1행 12 39 30 23 11
+2행 11 25 50 53 15
+3행 19 27 29 37 27
+4행 19 13 30 13 19
+
+arr[행][열]
+arr[2][1] = 25
+```
+
+### 2. / 대각선 이차원 배열
+
+`arr[i][length - i - 1]`
+
 <!-- 온라인 저지 사이트 -->
 
 [programmers]: https://programmers.co.kr/learn/challenges
