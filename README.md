@@ -1,117 +1,200 @@
 # 알고리즘 연습
 
-### 알고리즘 문제 풀이 저장소
-
-### 추천 사이트
+## 추천 사이트
 
 - [Programmers]
 - [GoormLevel]
 - [LeetCode]
 - [HackerRank]
 
+## 메서드 정리
 
-## [BOJ]
-✅: PASS
+## 문자 자르기
 
-💭: 한 번 더 생각해보기
-| Lv  |            Title            | Difficulty | Solution |
-| :-: | :-------------------------: | :--------: | :------: |
-|    |    [나머지]    |    Bronze II    |💭
-|    |   [평균은 넘겠지]    |    Bronze I    |💭
-|    |   [셀프 넘버]    |    Silver V    |💭
-|    |   [한수]    |    Silver IV    |💭
-|    |   [알파벳 찾기]    |    Bronze II    |💭
-|    |   [문자열 반복]    |    Bronze II    |💭
-|    |   [단어 공부]    |    Bronze I    |💭
+### 1. slice([beginIndex[, endIndex]])
 
-## [Programmers]
+- beginIndex부터 **endIndex를 제외**하고 추출
+- beginIndex 가 음수이면 배열의 끝부터 추출
 
-| Lv  |            Title            | Difficulty | Solution |
-| :-: | :-------------------------: | :--------: | :------: |
-|  1  |    [수박수박수박수박수?]    |    Easy    |
-|  1  |   [가운데 글자 가져오기]    |    Easy    |
-|  1  | [나누어 떨어지는 숫자 배열] |    Easy    |
-|  1  |    [핸드폰 번호 가리기]     |    Easy    |
-|  1  |    [완주하지 못한 선수]     |    Easy    |
-|  1  |    [두 개 뽑아서 더하기]    |    Easy    |
-|  1  |    [이상한 문자 만들기]     |   Normal   |
-|  1  |           [내적]            |    Easy    |
-|  1  |         [하샤드 수]         |   Normal   |
-|  1  |         [K번째 수]          |   Normal   |
-|  1  |        [행렬의 덧셈]        |    Easy    |
-|  1  |         [시저 암호]         |   Normal   |
-|  1  |         [약수의 합]         |    Easy    |
-|  1  |  [최대공약수와 최소공배수]  |   Normal   |
-|  1  |           [예산]            |   Normal   |
-|  1  |     [신규 아이디 추천]      |   Normal   |
-|  1  |         [소수 찾기]         |   Normal   |
-|  1  |       [키패드 누르기]       |   Normal   |
-|  1  |          [체육복]           |   Normal   |
-|  1  |         [다트 게임]         |   Normal   |
-|  1  |         [비밀지도]          |   Normal   |
-|  1  |          [폰켓몬]           |   Normal   |
-|  2  |        [가장 큰 수]         |   Normal   |
-|  2  |      [124 나라의 숫자]      |   Normal   |
-|  2  |  [JadenCase 문자열 만들기]  |   Normal   |
-|  2  |       [영어 끝말잇기]       |   Normal   |
-|  2  |       [큰 수 만들기]        |   Normal   |
-|  2  |          [실패율]           |   Normal   |
-|  2  |           [카펫]            |   Normal   |
-|  2  |        [오픈채팅방]         |   Normal   |
-|  2  |         [스킬트리]          |   Normal   |
-|  2  |           [위장]            |   Normal   |
-|  2  |        [하노이의탑]         |   Normal   |
+```js
+let arr = ['1', '2', '3', '4'];
+arr.slice(1);
+// index 1부터 끝까지 잘라 추출한다.
+//  ['2', '3', '4']
 
-<!-- 프로그래머스 -->
+arr.slice(0, 1);
+// ['1']
 
-[수박수박수박수박수?]: https://programmers.co.kr/learn/courses/30/lessons/12922
-[가운데 글자 가져오기]: https://programmers.co.kr/learn/courses/30/lessons/12903
-[나누어 떨어지는 숫자 배열]: https://programmers.co.kr/learn/courses/30/lessons/12910
-[핸드폰 번호 가리기]: https://programmers.co.kr/learn/courses/30/lessons/12948
-[완주하지 못한 선수]: https://programmers.co.kr/learn/courses/30/lessons/42576
-[이상한 문자 만들기]: https://programmers.co.kr/learn/courses/30/lessons/12930
-[두 개 뽑아서 더하기]: https://programmers.co.kr/learn/courses/30/lessons/68644
-[내적]: https://programmers.co.kr/learn/courses/30/lessons/70128
-[하샤드 수]: https://programmers.co.kr/learn/courses/30/lessons/12947
-[k번째 수]: https://programmers.co.kr/learn/courses/30/lessons/42748
-[행렬의 덧셈]: https://programmers.co.kr/learn/courses/30/lessons/12950
-[시저 암호]: https://programmers.co.kr/learn/courses/30/lessons/12926
-[약수의 합]: https://programmers.co.kr/learn/courses/30/lessons/12928
-[최대공약수와 최소공배수]: https://programmers.co.kr/learn/courses/30/lessons/12940
-[직사각형 별찍기]: https://programmers.co.kr/learn/courses/30/lessons/12969
-[예산]: https://programmers.co.kr/learn/courses/30/lessons/12982
-[가장 큰 수]: https://programmers.co.kr/learn/courses/30/lessons/42746
-[124 나라의 숫자]: https://programmers.co.kr/learn/courses/30/lessons/12899
-[jadencase 문자열 만들기]: https://programmers.co.kr/learn/courses/30/lessons/12951
-[다트 게임]: https://programmers.co.kr/learn/courses/30/lessons/17682
-[영어 끝말잇기]: https://programmers.co.kr/learn/courses/30/lessons/12981
-[비밀지도]: https://programmers.co.kr/learn/courses/30/lessons/17681
-[폰켓몬]: https://programmers.co.kr/learn/courses/30/lessons/1845
-[큰 수 만들기]: https://programmers.co.kr/learn/courses/30/lessons/42883
-[실패율]: https://programmers.co.kr/learn/courses/30/lessons/42889
-[카펫]: https://programmers.co.kr/learn/courses/30/lessons/42842
-[오픈채팅방]: https://programmers.co.kr/learn/courses/30/lessons/42888
-[스킬트리]: https://programmers.co.kr/learn/courses/30/lessons/49993
-[위장]: https://programmers.co.kr/learn/courses/30/lessons/42578
-[하노이의탑]: https://level.goorm.io/exam/43223/%ED%95%98%EB%85%B8%EC%9D%B4%EC%9D%98-%ED%83%91/quiz/1
-[신규 아이디 추천]: https://programmers.co.kr/learn/courses/30/lessons/72410
-[소수 찾기]: https://programmers.co.kr/learn/courses/30/lessons/12921
-[키패드 누르기]: https://programmers.co.kr/learn/courses/30/lessons/67256
-[체육복]: https://programmers.co.kr/learn/courses/30/lessons/42862
+arr.slice(1, 4);
+//  ['2', '3', '4']
 
-<!-- 백준 -->
-[나머지]: https://www.acmicpc.net/problem/3052
-[평균은 넘겠지]: https://www.acmicpc.net/problem/4344
-[셀프 넘버]: https://www.acmicpc.net/problem/4673
-[한수]: https://www.acmicpc.net/problem/1065
-[알파벳 찾기]: https://www.acmicpc.net/problem/10809
-[문자열 반복]: https://www.acmicpc.net/problem/2675
-[단어 공부]: https://www.acmicpc.net/problem/1157
+arr.slice(-1);
+// ['4']
+```
+
+### 2. splice(beginIndex[, deleteCount[, item1[, item2[, ...]]]])
+
+- 배열에서 특정 위치에서 시작하여 count 만큼의 문자들을 삭제, 교체, 추가
+- 기존 배열이 변화한다.
+
+```js
+var myFish = ['angel', 'clown', 'drum', 'mandarin', 'sturgeon'];
+// ['angel', 'clown', 'drum', 'sturgeon']
+var removed = myFish.splice(3, 1);
+// ['mandarin']
+var plus = myFish.splice(1, 1, 'drum');
+// ['angel', 'drum', 'drum', 'sturgeon']
+```
+
+### 3. split(구분자)
+
+- string 객체를 지정한 구분자를 이용하여 배열로 만들어 배열로 반환.
+- 새로운 배열이 반환된다.
+
+```js
+let ab = 'abcw';
+ab.split('b');
+// (2) ['a', 'cw']
+```
+
+### 4. substring([beginIndex[, endIndex]])
+
+- beginIndex부터 **endIndex를 제외**하고 추출
+
+```js
+let ab = '0123456';
+ab.substring(2, 4);
+// '23'
+```
+
+- slice와 비슷하다
+
+```js
+let ab = '0123456';
+ab.slice(2, 4);
+// '23'
+```
+
+### 5. substr(start[, length])
+
+- 문자열에서 특정 위치에서 시작하여 length 만큼의 문자들을 반환
+
+```js
+let ab = '0123456';
+ab.substr(2, 4);
+// '2345'
+```
+
+---
+
+## 배열 초기화
+
+### 1. new Array()
+
+#### 1. 특정 길이로 배열의 생성
+
+```js
+/* new Array() */
+const arr = new Array(5);
+console.log(arr); // => Array(5) []
+console.log(arr[0]); // => undefined
+console.log(arr.length); // => 5
+```
+
+```js
+/* 직접 초기화 */
+const arr2 = [0, 0, 0, 0, 0]; // => Array(5) [0, 0, 0, 0, 0]
+console.log(arr2[0]); // => 0
+console.log(arr2.length); // => 5
+```
+
+#### 2. 원하는 초기값으로 배열의 생성
+
+```js
+/* new Array()로 초기값 설정 */
+const arr = new Array(0, 0, 0, 0, 0);
+console.log(arr); // => Array(5) [0, 0, 0, 0, 0]
+console.log(arr[0]); // => 0
+console.log(arr.length); // => 5
+```
+
+### 2. Array.from( {length: 원하는 길이}, callback)
+
+```js
+/* Array.from()으로 길이가 5, 값이 0인 배열 생성하기 */
+const arr = Array.from({ length: 5 }, () => 0);
+console.log(arr); // => Array(5) [0, 0, 0, 0, 0]
+console.log(arr[0]); // => 0
+console.log(arr.length); // => 5
+```
+
+```js
+/* Array.from()으로 길이가 5, 값이 (0~5)인 배열 생성 */
+const arr = Array.from({ length: 5 }, (v, i) => i); // i(index) 1씩 증가
+console.log(arr); // => Array(5) [0, 1, 2, 3, 4]
+console.log(arr[0]); // => 0
+console.log(arr.length); // => 5
+```
+
+## 배열 검색
+
+### 1. find(callback)
+
+인자로 받은 판별 함수를 만족하는 첫 번째 요소를 반환
+return: 찾은 요소, 없다면 undefinded
+
+### 2. findIndex(callback)
+
+인자로 받은 판별 함수를 만족하는 첫 번째 index를 반환
+return: number, 없다면 -1
+
+### 3. indexOf
+
+인자로 받은 요소를 만족하는 첫 번째 index를 반환
+return: number, 없다면 -1
+
+```js
+const hello = ['a', 'b', 'c'];
+
+hello.find((e) => e === 'b');
+// 'b'
+
+hello.findIndex((e) => e === 'b');
+// 0
+
+hello.indexOf('b');
+// 1
+```
+
+## 반복문
+
+### for(let x of s)
+
+for...of 명령문은 반복가능한 객체 (Array, Map (en-US), Set, String, TypedArray, arguments 객체 등을 포함)에 대해서 반복하고 각 개별 속성값에 대해 실행되는 문이 있는 사용자 정의 반복 후크를 호출하는 루프를 생성합니다.
+
+## 유니코드
+
+### 1. charCodeAt()
+
+- 대문자: 65 ~ 90
+- 소문자: 97 ~ 122
+
+- 97 - 65 = 32
+- 소문자를 대문자로 변환 시 `-32` 해준다.
+
+### 2. String.fromCharCode(number)
+
+유니코드값을 문자열로 변환
+
+## 기타
+
+1. `Number.MAX_SAFE_INTEGER`
+   최대 안전 정수
 
 <!-- 온라인 저지 사이트 -->
 
 [programmers]: https://programmers.co.kr/learn/challenges
-[BOJ]: https://www.acmicpc.net/step
+[boj]: https://www.acmicpc.net/step
 [goormlevel]: https://level.goorm.io/
 [leetcode]: https://leetcode.com/problemset/all/
 [hackerrank]: https://www.hackerrank.com/dashboard
