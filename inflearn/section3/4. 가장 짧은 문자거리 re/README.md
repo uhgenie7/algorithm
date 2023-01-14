@@ -10,3 +10,10 @@
 teachermode e
 ▣ 출력예제 1
 1 0 1 2 1 0 1 2 2 1 0
+
+<details>
+<summary>팁</summary>
+<div markdown="1">       
+  - 1. 왼쪽으로 한 번 순회, 오른쪽으로 한 번 순회한 뒤, 둘 중 거리가 더 짧은 것으로 대체한다.
+</div>
+</details>
