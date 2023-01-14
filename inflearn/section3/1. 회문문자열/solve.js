@@ -11,5 +11,13 @@ function solution(s) {
   return answer;
 }
 
+function solution2(s) {
+  let answer = 'YES';
+  const word = s.toLowerCase();
+  if (word.split('').reverse().join('') !== word) return 'NO';
+  return answer;
+}
+
 let str = 'googoaG';
 console.log(solution(str));
+console.log(solution2(str));
