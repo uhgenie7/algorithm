@@ -193,6 +193,9 @@ for...of 명령문은 반복가능한 객체 (Array, Map (en-US), Set, String, T
 1. `Number.MAX_SAFE_INTEGER`
    최대 안전 정수
 
+2. `isNaN(string)`
+   number가 아닌지 확인. number가 아니면 true, number면 false
+
 ---
 
 ## 접근법
