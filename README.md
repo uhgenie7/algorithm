@@ -7,6 +7,8 @@
 - [LeetCode]
 - [HackerRank]
 
+---
+
 ## 메서드 정리
 
 ## 문자 자르기
@@ -191,6 +193,8 @@ for...of 명령문은 반복가능한 객체 (Array, Map (en-US), Set, String, T
 1. `Number.MAX_SAFE_INTEGER`
    최대 안전 정수
 
+---
+
 ## 접근법
 
 ## 2차원 배열
@@ -212,6 +216,14 @@ arr[2][1] = 25
 ### 2. / 대각선 이차원 배열
 
 `arr[i][length - i - 1]`
+
+## 정규식
+
+### 1. 소문자만 거르기
+
+```js
+String.replace(/[^a-z]/g, '');
+```
 
 <!-- 온라인 저지 사이트 -->
 
